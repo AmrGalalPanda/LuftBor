@@ -1,0 +1,113 @@
+div {
+    border-radius: 15px;
+
+}
+
+.dfultcolor {
+    border-radius: 15px;
+    background-color: #1C204B;
+    color: white;
+}
+
+.bestSaler {
+    .textmute {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 21px;
+        letter-spacing: 0px;
+        text-align: left;
+        color: #7078C9;
+    }
+
+    .textwhite {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 21px;
+        letter-spacing: 0px;
+        text-align: left;
+        color: #FFFFFF;
+    }
+
+    .sunBestSaler {
+        img {
+            border-radius: 50%;
+        }
+
+        background-color: #5747EA;
+
+        .report {
+            color: #BBC0FF;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 17.78px;
+        }
+
+        h2 {
+            color: white;
+            font-size: 40px;
+            font-weight: 300;
+            line-height: 47.4px;
+            letter-spacing: 12px;
+        }
+    }
+
+}
+
+.detailsblock {
+    color: white;
+
+    .category {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 21px;
+
+
+    }
+
+    .price {
+        font-family: Rubik;
+        font-size: 39px;
+        font-weight: 300;
+        line-height: 46px;
+
+
+
+    }
+
+    .title {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 14px;
+        letter-spacing: 0px;
+        color: #BBC0FF;
+    text-decoration: underline;
+    }
+
+    .insort {
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 14px;
+        letter-spacing: 0px;
+        text-align: center;
+
+    }
+
+}
+
+@media screen and (min-width: 1280px) {
+    .container {
+        max-width: 1670px;
+    }
+
+    .col-md-25 {
+        width: 18.5% !important;
+    }
+
+}
+
+@media screen and (min-width: 1780px) {
+    .div {
+        max-width: 255px;
+    }
+
+}

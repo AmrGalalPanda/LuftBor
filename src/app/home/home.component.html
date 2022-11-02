@@ -1,0 +1,34 @@
+<div class="container mt-5">
+    <div class="row d-flex justify-content-md-between justify-content-center">
+        <div class="col-md-2 bestSaler dfultcolor px-0 mb-2">
+            <div class="sunBestSaler pt-4 py-2 mb-4  px-3">
+                <div class="d-flex justify-content-center mb-3">
+                    <img class="img-fluid" src="../../assets/imges/logoar.png" alt="">
+
+                </div>
+                <p class="report">
+                    Report for
+                </p>
+                <h2>Best
+                    Sales</h2>
+            </div>
+
+            
+            <p class="textmute px-3">Daily</p>
+            <p class="textwhite px-3">Weekly</p>
+            <p class="textmute px-3">Monthly</p>
+        </div>
+        <div class="row col-md-10 justify-content-between">
+
+            <div *ngFor="let user of userdeatils" class="col-md-25 col-12 mb-4 bg-{id} bg-info px-0 pt-5 ">
+                <div class="dfultcolor h-100 px-2 pt-3 detailsblock">
+                <p class="category">{{user.category}}</p>
+                <p class="price">{{user.price}}</p>
+                <div class="row">
+                    <p class="title col-9">{{user.title}}</p>
+                    <p class="col-3 insort">insort {{user.rating.count}}</p>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
